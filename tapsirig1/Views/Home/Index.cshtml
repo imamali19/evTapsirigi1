@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model tapsirig1.Models.HomeViewmodel
+<div>
+    <p>Teacher date of birth: @Model.Teacher.date_of_birth</p>
+	<p>Teacher Fullname: @Model.Teacher.Name @Model.Teacher.Surname</p>
+    <hr />
+    <p>Title: @Model.Book.Title</p>
+	<p>Author: @Model.Book.Author</p>
+    <p>Year of publication: @Model.Book.year_of_publication</p>
+</div>
+
+
